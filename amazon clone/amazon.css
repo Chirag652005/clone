@@ -1,0 +1,453 @@
+*{
+    margin:0px;
+    font-family: Arial;
+    border:border-box;
+    
+}
+
+.navbar{
+    height:60px;
+    width:100%;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* bx 2 stylng */
+
+.add-first{
+    font-size: 0.85rem;
+    color:#cccccc;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size:1rem;
+    margin-left: 5px;
+}
+
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+/* box 3  */
+
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width:620px;
+    height:40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+
+.search-input{
+    width:525px;
+    font-size: 1rem;
+    border:none;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-icon{
+    width:45px;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1rem;
+    color:#0f1111;
+}
+
+/* box 4  */
+
+.nav-country{
+    font-weight: 700;
+    background-color: #0f1111;
+    color:#cccccc
+}
+
+.select-country{
+    border: 0px solid none;
+    background-color: transparent;
+    color:#cccccc
+}
+
+
+/* box 5 and box 6  */
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 7  */
+
+.nav-cart i {
+    font-size: 2rem;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*  ********* */
+/* next di of header */
+/*  ********* */
+
+.one-options{
+    height:40px;
+    width: 100%;
+    background-color: rgba(15, 17, 17, 0.950);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.one-menu{
+    color:white;
+}
+
+.span-one{
+    color:white;
+    font-size:14px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+/* ****** */
+/* hero section */
+/* ****** */
+
+.hero-section{
+    background-image: url("scrooling-image.jpg");
+    height:250px;
+    background-size: cover;
+}
+/* ****** */
+/* shopping section */
+/* ****** */
+
+.shopping-box1{
+    height:500px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 192, 203, 0.176);
+    flex-wrap: wrap;
+}
+
+.box{
+    border:2px solid rgba(255, 192, 203, 0.176);
+    width:23%;
+    background-color:white;
+}
+
+.row2{
+margin-top:15px;
+}
+/* box 1 stylimg  */
+
+#b1{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b1{
+    height:82%;
+    width:90%;
+   background-image: url("box1.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/* box 2  */
+
+#b2{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b2{
+    height:82%;
+    width:90%;
+   background-image: url("box2.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/*  Box 3  */
+
+#b3{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b3{
+    height:82%;
+    width:100%;
+   background-image: url("box3.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/*  Box 4 */
+
+#b4{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b4{
+    height:82%;
+    width:100%;
+   background-image: url("box4.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/* box 5 */
+
+#b5{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b5{
+    height:82%;
+    width:100%;
+   background-image: url("box5.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/*  box 6 */
+
+#b6{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b6{
+    height:80%;
+    width:100%;
+   background-image: url("box6.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/* box 7 */
+
+#b7{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b7{
+    height:80%;
+    width:100%;
+   background-image: url("box7.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/* box 8 */
+
+#b8{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:aqua ;
+}
+
+.img_b8{
+    height:80%;
+    width:100%;
+   background-image: url("box8.jpg");
+   background-size: cover;
+}
+#see_more{
+    text-decoration: none;
+    color:black;
+}
+
+/*  **** **** */
+/*  Footer Styling */
+/*  **** **** */
+
+/* back to top */
+
+.back{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111cb;
+    color:white;
+    height:34px;
+    width:100%;
+}
+
+.info{
+    display:flex;
+    background-color: #0f1111;
+    color:white;
+    height: 450px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+
+/* get to know us  */
+
+.get_to_know{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: large;
+    
+}
+
+.links1{
+    font-size: medium;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+/*  connect with us  */
+
+.Connect{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: large;
+  
+}
+
+.links2{
+    font-size: medium;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+/*  make mony  */
+
+.make_monney{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: large;
+    
+}
+
+.links3{
+    font-size: medium;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+/* help you */
+
+.help_you{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: large;
+    
+}
+
+.links4{
+    font-size: medium;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+/*  logo bottom  */
+
+.bottom_text{
+    height:20px;
+    width:40%;
+    display:flex;
+    background-color:  none;
+    justify-content: space-around;
+    color:white;
+    align-items: center;
+    padding-left: 30%;
+}
+
+.main_footer{
+    width:100%;
+    height:60px;
+    background-color: #0f1111cb;
+    
+    text-align: center;
+}
+
+.amazon_company{
+    color:white;
+}
